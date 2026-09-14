@@ -55,6 +55,8 @@ body{background:#0b0f0d;color:#f4f6f4}
 .prtsub{font-size:22px;color:#606A6F;margin-top:14px;line-height:1.5;max-width:42ch;margin-left:auto;margin-right:auto}
 .prow{display:flex;gap:26px;justify-content:center;margin-top:56px;flex-wrap:wrap}
 .pcard{width:483px;background:linear-gradient(180deg,#FDFDFD,#F8F8FA);border:1px solid rgba(0,0,0,.09);border-radius:24px;padding:30px 34px;display:flex;flex-direction:column;align-items:center}
+.quote-card{width:483px;background:linear-gradient(180deg,#FDFDFD,#F8F8FA);border:1px solid rgba(0,0,0,.09);border-radius:24px;padding:30px 34px;display:flex;align-items:center;text-align:left}
+.quote-card .pullout-quote{margin:0}
 .pav{width:88px;height:88px;border-radius:24px;margin:0 auto;background:linear-gradient(140deg,#3faeef,#2170b8);display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800}
 .pav.photo{width:106px;height:106px;background-size:cover;background-position:center;border-radius:50%}
 .pname{font-size:26px;font-weight:700;margin-top:24px;color:#1d1d1f;letter-spacing:-1px}
@@ -112,6 +114,7 @@ body{background:#0b0f0d;color:#f4f6f4}
   .prtsub{font-size:15px;margin-top:10px;max-width:none}
   .prow{flex-direction:column;align-items:center;gap:16px;margin-top:28px}
   .pcard{width:100%;max-width:420px;padding:24px 20px}
+  .quote-card{width:100%;max-width:420px;padding:24px 20px}
   .pav.photo{width:84px;height:84px}
   .pname{font-size:21px;margin-top:16px}
   .prole{font-size:13px}
