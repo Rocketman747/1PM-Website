@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   var heroSlides = [
+    { img: 'assets/snorkel.jpg', l1: 'Ocean', l2: 'Adventure', title: 'Coming 2027' },
     { img: 'assets/global-table.jpg', l1: 'Live-Action', l2: 'Premium Docuseries', title: 'Coming 2027' },
     { img: 'assets/futureproof.jpg', l1: 'Live-Action', l2: 'Premium Docuseries', title: 'Coming 2027' },
     { img: 'assets/campfire-family.jpg', l1: 'Live-action reality', l2: 'series', title: 'Coming 2027' },
